@@ -21,7 +21,7 @@ const fetchDataRawFormat = async (
             }),
         });
         
-        const result = await response.json();
+        const result = await response.json() as any;
         if (!response.ok) {
             console.error(`HTTP error! status: ${response.status}`);
         }
