@@ -10,7 +10,7 @@ let cache = apicache.middleware;
 
 const limiter = rateLimit({
   windowMs: 60 * 60 * 1000, // 1 hour
-  limit: 120,
+  limit: 1000,
   standardHeaders: 'draft-7',
   legacyHeaders: false,
   message: 'Too many request from this IP, try again in 1 hour',
