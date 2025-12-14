@@ -34,7 +34,7 @@ const fetchProblems = async (
       }),
     });
 
-    const result = await response.json();
+    const result = await response.json() as any;
 
     if (result.errors) {
       return res.status(400).json(result.errors); // Return errors with a 400 status code
