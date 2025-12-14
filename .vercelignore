@@ -1,0 +1,15 @@
+node_modules
+tests
+.git
+.idea
+*.md
+!CLAUDE.md
+src
+mcp
+tsconfig.json
+.gitignore
+.dockerignore
+Dockerfile
+fly.toml
+render.yaml
+railway.toml
