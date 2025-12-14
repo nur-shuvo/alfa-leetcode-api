@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
-    "lib": ["es6", "es2017", "esnext.asynciterable"],
+    "lib": ["es2017", "esnext.asynciterable"],
     "skipLibCheck": true,
     "sourceMap": false,
     "outDir": "./dist",
@@ -16,7 +16,6 @@
     "strictNullChecks": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "suppressImplicitAnyIndexErrors": true,
     "noImplicitReturns": false
   },
   "include": ["src/**/*.ts"],
